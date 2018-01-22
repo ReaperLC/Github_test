@@ -15,6 +15,8 @@
 		412BA8B92015C7C3004CA86E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA8B82015C7C3004CA86E /* main.m */; };
 		412BA8C32015C7C3004CA86E /* Github_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA8C22015C7C3004CA86E /* Github_testTests.m */; };
 		412BA8CE2015C7C3004CA86E /* Github_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA8CD2015C7C3004CA86E /* Github_testUITests.m */; };
+		412BA8F82015CF52004CA86E /* MF_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA8F62015CF52004CA86E /* MF_HomeViewController.m */; };
+		412BA8F92015CF52004CA86E /* MF_HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412BA8F72015CF52004CA86E /* MF_HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		412BA8C92015C7C3004CA86E /* Github_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Github_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		412BA8CD2015C7C3004CA86E /* Github_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Github_testUITests.m; sourceTree = "<group>"; };
 		412BA8CF2015C7C3004CA86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412BA8F52015CF52004CA86E /* MF_HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MF_HomeViewController.h; sourceTree = "<group>"; };
+		412BA8F62015CF52004CA86E /* MF_HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MF_HomeViewController.m; sourceTree = "<group>"; };
+		412BA8F72015CF52004CA86E /* MF_HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MF_HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +185,9 @@
 		412BA8E02015CE00004CA86E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				412BA8F52015CF52004CA86E /* MF_HomeViewController.h */,
+				412BA8F62015CF52004CA86E /* MF_HomeViewController.m */,
+				412BA8F72015CF52004CA86E /* MF_HomeViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -446,6 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412BA8F92015CF52004CA86E /* MF_HomeViewController.xib in Resources */,
 				412BA8B62015C7C3004CA86E /* LaunchScreen.storyboard in Resources */,
 				412BA8B32015C7C3004CA86E /* Assets.xcassets in Resources */,
 				412BA8B12015C7C3004CA86E /* Main.storyboard in Resources */,
@@ -473,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412BA8F82015CF52004CA86E /* MF_HomeViewController.m in Sources */,
 				412BA8AE2015C7C3004CA86E /* ViewController.m in Sources */,
 				412BA8B92015C7C3004CA86E /* main.m in Sources */,
 				412BA8AB2015C7C3004CA86E /* AppDelegate.m in Sources */,
