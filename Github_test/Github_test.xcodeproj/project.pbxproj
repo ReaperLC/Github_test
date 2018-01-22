@@ -17,6 +17,9 @@
 		412BA8CE2015C7C3004CA86E /* Github_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA8CD2015C7C3004CA86E /* Github_testUITests.m */; };
 		412BA8F82015CF52004CA86E /* MF_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA8F62015CF52004CA86E /* MF_HomeViewController.m */; };
 		412BA8F92015CF52004CA86E /* MF_HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412BA8F72015CF52004CA86E /* MF_HomeViewController.xib */; };
+		412BA9072015E046004CA86E /* MFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA9062015E046004CA86E /* MFBaseViewController.m */; };
+		412BA90D2015E0B1004CA86E /* MFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA90C2015E0B1004CA86E /* MFNavigationViewController.m */; };
+		412BA9102015E0D0004CA86E /* MFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA90F2015E0D0004CA86E /* MFTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,12 @@
 		412BA8F52015CF52004CA86E /* MF_HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MF_HomeViewController.h; sourceTree = "<group>"; };
 		412BA8F62015CF52004CA86E /* MF_HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MF_HomeViewController.m; sourceTree = "<group>"; };
 		412BA8F72015CF52004CA86E /* MF_HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MF_HomeViewController.xib; sourceTree = "<group>"; };
+		412BA9052015E046004CA86E /* MFBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFBaseViewController.h; sourceTree = "<group>"; };
+		412BA9062015E046004CA86E /* MFBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFBaseViewController.m; sourceTree = "<group>"; };
+		412BA90B2015E0B1004CA86E /* MFNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFNavigationViewController.h; sourceTree = "<group>"; };
+		412BA90C2015E0B1004CA86E /* MFNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFNavigationViewController.m; sourceTree = "<group>"; };
+		412BA90E2015E0D0004CA86E /* MFTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFTabBarViewController.h; sourceTree = "<group>"; };
+		412BA90F2015E0D0004CA86E /* MFTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,7 @@
 		412BA8DB2015CE00004CA86E /* MobileFrame */ = {
 			isa = PBXGroup;
 			children = (
+				412BA9042015E034004CA86E /* Base */,
 				412BA8DC2015CE00004CA86E /* Home */,
 				412BA8E12015CE00004CA86E /* Mine */,
 				412BA8E62015CE00004CA86E /* FriendCircle */,
@@ -348,6 +358,19 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		412BA9042015E034004CA86E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				412BA9052015E046004CA86E /* MFBaseViewController.h */,
+				412BA9062015E046004CA86E /* MFBaseViewController.m */,
+				412BA90B2015E0B1004CA86E /* MFNavigationViewController.h */,
+				412BA90C2015E0B1004CA86E /* MFNavigationViewController.m */,
+				412BA90E2015E0D0004CA86E /* MFTabBarViewController.h */,
+				412BA90F2015E0D0004CA86E /* MFTabBarViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -482,8 +505,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412BA9102015E0D0004CA86E /* MFTabBarViewController.m in Sources */,
 				412BA8F82015CF52004CA86E /* MF_HomeViewController.m in Sources */,
+				412BA90D2015E0B1004CA86E /* MFNavigationViewController.m in Sources */,
 				412BA8AE2015C7C3004CA86E /* ViewController.m in Sources */,
+				412BA9072015E046004CA86E /* MFBaseViewController.m in Sources */,
 				412BA8B92015C7C3004CA86E /* main.m in Sources */,
 				412BA8AB2015C7C3004CA86E /* AppDelegate.m in Sources */,
 			);
