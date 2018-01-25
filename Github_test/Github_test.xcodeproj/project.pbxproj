@@ -17,9 +17,9 @@
 		412BA8CE2015C7C3004CA86E /* Github_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA8CD2015C7C3004CA86E /* Github_testUITests.m */; };
 		412BA8F82015CF52004CA86E /* MF_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA8F62015CF52004CA86E /* MF_HomeViewController.m */; };
 		412BA8F92015CF52004CA86E /* MF_HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412BA8F72015CF52004CA86E /* MF_HomeViewController.xib */; };
-		412BA9072015E046004CA86E /* MFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA9062015E046004CA86E /* MFBaseViewController.m */; };
-		412BA90D2015E0B1004CA86E /* MFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA90C2015E0B1004CA86E /* MFNavigationViewController.m */; };
-		412BA9102015E0D0004CA86E /* MFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BA90F2015E0D0004CA86E /* MFTabBarViewController.m */; };
+		41F920752019BD3000A52B16 /* MFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F9206D2019BD3000A52B16 /* MFBaseViewController.m */; };
+		41F920762019BD3000A52B16 /* MFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F9206E2019BD3000A52B16 /* MFTabBarViewController.m */; };
+		41F920772019BD3000A52B16 /* MFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F9206F2019BD3000A52B16 /* MFNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +59,12 @@
 		412BA8F52015CF52004CA86E /* MF_HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MF_HomeViewController.h; sourceTree = "<group>"; };
 		412BA8F62015CF52004CA86E /* MF_HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MF_HomeViewController.m; sourceTree = "<group>"; };
 		412BA8F72015CF52004CA86E /* MF_HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MF_HomeViewController.xib; sourceTree = "<group>"; };
-		412BA9052015E046004CA86E /* MFBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFBaseViewController.h; sourceTree = "<group>"; };
-		412BA9062015E046004CA86E /* MFBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFBaseViewController.m; sourceTree = "<group>"; };
-		412BA90B2015E0B1004CA86E /* MFNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFNavigationViewController.h; sourceTree = "<group>"; };
-		412BA90C2015E0B1004CA86E /* MFNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFNavigationViewController.m; sourceTree = "<group>"; };
-		412BA90E2015E0D0004CA86E /* MFTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFTabBarViewController.h; sourceTree = "<group>"; };
-		412BA90F2015E0D0004CA86E /* MFTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFTabBarViewController.m; sourceTree = "<group>"; };
+		41F9206D2019BD3000A52B16 /* MFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBaseViewController.m; sourceTree = "<group>"; };
+		41F9206E2019BD3000A52B16 /* MFTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTabBarViewController.m; sourceTree = "<group>"; };
+		41F9206F2019BD3000A52B16 /* MFNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFNavigationViewController.m; sourceTree = "<group>"; };
+		41F920702019BD3000A52B16 /* MFTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTabBarViewController.h; sourceTree = "<group>"; };
+		41F920712019BD3000A52B16 /* MFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBaseViewController.h; sourceTree = "<group>"; };
+		41F920722019BD3000A52B16 /* MFNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNavigationViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,14 +361,46 @@
 		412BA9042015E034004CA86E /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				412BA9052015E046004CA86E /* MFBaseViewController.h */,
-				412BA9062015E046004CA86E /* MFBaseViewController.m */,
-				412BA90B2015E0B1004CA86E /* MFNavigationViewController.h */,
-				412BA90C2015E0B1004CA86E /* MFNavigationViewController.m */,
-				412BA90E2015E0D0004CA86E /* MFTabBarViewController.h */,
-				412BA90F2015E0D0004CA86E /* MFTabBarViewController.m */,
+				41F920732019BD3000A52B16 /* Model */,
+				41F9206B2019BD3000A52B16 /* View */,
+				41F9206C2019BD3000A52B16 /* ViewController */,
+				41F920742019BD3000A52B16 /* ViewModel */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		41F9206B2019BD3000A52B16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41F9206C2019BD3000A52B16 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41F920722019BD3000A52B16 /* MFNavigationViewController.h */,
+				41F9206F2019BD3000A52B16 /* MFNavigationViewController.m */,
+				41F920702019BD3000A52B16 /* MFTabBarViewController.h */,
+				41F9206E2019BD3000A52B16 /* MFTabBarViewController.m */,
+				41F920712019BD3000A52B16 /* MFBaseViewController.h */,
+				41F9206D2019BD3000A52B16 /* MFBaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		41F920732019BD3000A52B16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41F920742019BD3000A52B16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,13 +537,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412BA9102015E0D0004CA86E /* MFTabBarViewController.m in Sources */,
+				41F920772019BD3000A52B16 /* MFNavigationViewController.m in Sources */,
 				412BA8F82015CF52004CA86E /* MF_HomeViewController.m in Sources */,
-				412BA90D2015E0B1004CA86E /* MFNavigationViewController.m in Sources */,
 				412BA8AE2015C7C3004CA86E /* ViewController.m in Sources */,
-				412BA9072015E046004CA86E /* MFBaseViewController.m in Sources */,
+				41F920752019BD3000A52B16 /* MFBaseViewController.m in Sources */,
 				412BA8B92015C7C3004CA86E /* main.m in Sources */,
 				412BA8AB2015C7C3004CA86E /* AppDelegate.m in Sources */,
+				41F920762019BD3000A52B16 /* MFTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
